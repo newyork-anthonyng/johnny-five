@@ -7,5 +7,6 @@ const board = new five.Board({
 
 board.on("ready", () => {
   const led = new five.Led("a5");
-  led.blink(500);
+  // led.blink(500);
+  led.pulse(500);
 });
