@@ -1,0 +1,19 @@
+{
+  "name": "02_multiple-leds",
+  "version": "0.0.0",
+  "description": "Tessel project",
+  "main": "index.js",
+  "scripts": {
+    "start": "t2 run side-to-side.js"
+  },
+  "repository": "www.github.com/tessel/t2-cli",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script.",
+  "dependencies": {
+    "johnny-five": "^1.0.0",
+    "tessel-io": "^1.2.0"
+  }
+}
