@@ -1,0 +1,20 @@
+{
+  "name": "14_seven_segment_display",
+  "version": "0.0.0",
+  "description": "Tessel project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "www.github.com/tessel/t2-cli",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script.",
+  "dependencies": {
+    "johnny-five": "^1.4.0",
+    "keypress": "^0.2.1",
+    "tessel-io": "^1.3.0"
+  }
+}
